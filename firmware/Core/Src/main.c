@@ -15,6 +15,7 @@
   *
   ******************************************************************************
   */
+#include "ledapp.h"
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
@@ -91,18 +92,19 @@ int main(void)
   MX_SUBGHZ_Init();
   MX_SubGHz_Phy_Init();
   /* USER CODE BEGIN 2 */
-    led_g_ctrl(0);
-    led_b_ctrl(1);
+  //led_g_ctrl(0);
+  //led_b_ctrl(1);
+  app_led_init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    led_g_ctrl(2);
-    led_b_ctrl(2);
-    HAL_Delay(1000);
-    u1_print_str_rtc("LED Blink \n");
+    //led_g_ctrl(2);
+    //led_b_ctrl(2);
+    //HAL_Delay(1000);
+    //u1_print_str_rtc("LED Blink \n");
     /* USER CODE END WHILE */
     MX_SubGHz_Phy_Process();
 

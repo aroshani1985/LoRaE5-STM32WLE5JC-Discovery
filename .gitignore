@@ -96,6 +96,8 @@ thumbs.db
 **/settings/*.wsdt
 **/settings/*.wspos
 
+**/BrowsInfo/**
+
 # IAR Debug Exe
 **/Exe/*.sim
 

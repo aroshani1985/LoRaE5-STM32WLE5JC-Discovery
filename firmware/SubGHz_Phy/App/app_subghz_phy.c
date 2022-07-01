@@ -78,7 +78,7 @@ void MX_SubGHz_Phy_Init(void)
 void MX_SubGHz_Phy_Process(void)
 {
   /* USER CODE BEGIN MX_SubGHz_Phy_Process_1 */
-
+   UTIL_SEQ_Run(UTIL_SEQ_DEFAULT);
   /* USER CODE END MX_SubGHz_Phy_Process_1 */
 }
 

@@ -68,7 +68,8 @@ static uint8_t SYS_TimerInitialisedFlag = 0;
 void SystemApp_Init(void)
 {
   /* USER CODE BEGIN SystemApp_Init_1 */
-
+  UTIL_TIMER_Init();
+  SYS_TimerInitialisedFlag = 1;
   /* USER CODE END SystemApp_Init_1 */
 
 }

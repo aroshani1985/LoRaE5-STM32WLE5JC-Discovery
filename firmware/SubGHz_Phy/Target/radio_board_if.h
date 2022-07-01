@@ -58,7 +58,7 @@ extern "C" {
 /* and define USE_BSP_DRIVER in the preprocessor definitions  or in platform.h */
 
 #else
-/* USER CODE BEGIN Exported Parameters */ 
+/* USER CODE BEGIN Exported Parameters */
 /* USER CODE END Exported Parameters */
 /* Indicates the type of switch between the ones proposed by CONFIG Constants
  */

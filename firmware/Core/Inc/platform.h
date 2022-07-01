@@ -42,7 +42,7 @@ extern "C" {
 /* In order to use BSP, users can add the BSP files in the IDE project space */
 /* and define USE_BSP_DRIVER in the preprocessor definitions  */
 #include "stm32wlxx_lorae5_radio.h"
-#include "stm32wlxx_lorae5.h"    
+#include "stm32wlxx_lorae5.h" 
   /* not used by this project*/
 #endif /* defined(USE_BSP_DRIVER) */
 

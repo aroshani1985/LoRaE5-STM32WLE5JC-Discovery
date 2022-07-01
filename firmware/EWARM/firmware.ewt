@@ -1421,6 +1421,15 @@
         </settings>
     </configuration>
     <group>
+        <name>App</name>
+        <file>
+            <name>$PROJ_DIR$\..\App\ledapp.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\App\ledapp.h</name>
+        </file>
+    </group>
+    <group>
         <name>Application</name>
         <group>
             <name>EWARM</name>
@@ -1479,6 +1488,9 @@
                 </file>
                 <file>
                     <name>$PROJ_DIR$\..\Core\Inc\usart.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\utilities_def.h</name>
                 </file>
             </group>
             <group>
