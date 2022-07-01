@@ -21,6 +21,8 @@ C:\git-prj\LoRa-E5-STM32WLE5JC-06-02-2022\firmware\EWARM/../Drivers/CMSIS/Device
 -I
 C:\git-prj\LoRa-E5-STM32WLE5JC-06-02-2022\firmware\EWARM/../Drivers/CMSIS/Include
 -I
+C:\git-prj\LoRa-E5-STM32WLE5JC-06-02-2022\firmware\EWARM/../Drivers/BSP
+-I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
@@ -36,6 +38,8 @@ C:\git-prj\LoRa-E5-STM32WLE5JC-06-02-2022\firmware\Drivers\STM32WLxx_HAL_Driver\
 C:\git-prj\LoRa-E5-STM32WLE5JC-06-02-2022\firmware\Drivers\CMSIS\Device\ST\STM32WLxx\Include
 -I
 C:\git-prj\LoRa-E5-STM32WLE5JC-06-02-2022\firmware\Drivers\CMSIS\Include
+-I
+C:\git-prj\LoRa-E5-STM32WLE5JC-06-02-2022\firmware\Drivers\BSP
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

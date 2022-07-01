@@ -1468,6 +1468,27 @@
     <group>
         <name>Drivers</name>
         <group>
+            <name>BSP</name>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\BSP\stm32wlxx_lorae5.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\BSP\stm32wlxx_lorae5.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\BSP\stm32wlxx_lorae5_conf.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\BSP\stm32wlxx_lorae5_errno.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\BSP\stm32wlxx_lorae5_radio.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\BSP\stm32wlxx_lorae5_radio.h</name>
+            </file>
+        </group>
+        <group>
             <name>CMSIS</name>
             <file>
                 <name>$PROJ_DIR$\..\Core\Src\system_stm32wlxx.c</name>
