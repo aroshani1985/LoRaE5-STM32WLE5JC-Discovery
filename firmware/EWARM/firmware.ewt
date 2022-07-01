@@ -1456,6 +1456,12 @@
                 <file>
                     <name>$PROJ_DIR$\..\Core\Src\stm32wlxx_it.c</name>
                 </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Src\usart.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\usart.h</name>
+                </file>
             </group>
         </group>
     </group>
@@ -1516,6 +1522,12 @@
             </file>
             <file>
                 <name>$PROJ_DIR$\..\Drivers\STM32WLxx_HAL_Driver\Src\stm32wlxx_hal_tim_ex.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\STM32WLxx_HAL_Driver\Src\stm32wlxx_hal_uart.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\STM32WLxx_HAL_Driver\Src\stm32wlxx_hal_uart_ex.c</name>
             </file>
         </group>
     </group>

@@ -21,7 +21,8 @@
 #include "rtc.h"
 
 /* USER CODE BEGIN 0 */
-
+RTC_TimeTypeDef sTime = {0};
+RTC_DateTypeDef sDate = {0};
 /* USER CODE END 0 */
 
 RTC_HandleTypeDef hrtc;
@@ -107,5 +108,9 @@ void HAL_RTC_MspDeInit(RTC_HandleTypeDef* rtcHandle)
 }
 
 /* USER CODE BEGIN 1 */
-
+void get_date_time()
+{
+    HAL_RTC_GetTime(&hrtc, &sTime, RTC_FORMAT_BIN);
+    HAL_RTC_GetDate(&hrtc, &sDate, RTC_FORMAT_BIN);
+}
 /* USER CODE END 1 */

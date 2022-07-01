@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "rtc.h"
+#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -86,6 +87,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_RTC_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
     led_g_ctrl(0);
     led_b_ctrl(1);
@@ -98,6 +100,7 @@ int main(void)
     led_g_ctrl(2);
     led_b_ctrl(2);
     HAL_Delay(1000);
+    u1_print_str_rtc("LED Blink \n");
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
