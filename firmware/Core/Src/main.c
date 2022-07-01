@@ -18,7 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "rtc.h"
+#include "subghz.h"
+#include "app_subghz_phy.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -86,8 +87,9 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_RTC_Init();
   MX_USART1_UART_Init();
+  MX_SUBGHZ_Init();
+  MX_SubGHz_Phy_Init();
   /* USER CODE BEGIN 2 */
     led_g_ctrl(0);
     led_b_ctrl(1);
@@ -102,6 +104,7 @@ int main(void)
     HAL_Delay(1000);
     u1_print_str_rtc("LED Blink \n");
     /* USER CODE END WHILE */
+    MX_SubGHz_Phy_Process();
 
     /* USER CODE BEGIN 3 */
   }

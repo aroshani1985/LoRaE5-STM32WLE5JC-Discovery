@@ -64,6 +64,9 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define RTC_N_PREDIV_S 10
+#define RTC_PREDIV_A ((1<<(15-RTC_N_PREDIV_S))-1)
+#define RTC_PREDIV_S ((1<<RTC_N_PREDIV_S)-1)
 #define LED_B_Pin GPIO_PIN_5
 #define LED_B_GPIO_Port GPIOB
 #define LED_G_Pin GPIO_PIN_13
