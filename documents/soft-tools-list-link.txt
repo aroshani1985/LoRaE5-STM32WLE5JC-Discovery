@@ -1,0 +1,4 @@
+
+-Hardware design tools
+ - Altium designer version 22.02 - build 36
+ - STM32CubeMX     version 6.5.0
