@@ -87,13 +87,17 @@ int main(void)
   MX_GPIO_Init();
   MX_RTC_Init();
   /* USER CODE BEGIN 2 */
-
+    led_g_ctrl(0);
+    led_b_ctrl(1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    led_g_ctrl(2);
+    led_b_ctrl(2);
+    HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

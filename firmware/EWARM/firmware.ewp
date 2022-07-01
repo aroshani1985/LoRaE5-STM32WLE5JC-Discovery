@@ -1082,10 +1082,19 @@
                     <name>$PROJ_DIR$\..\Core\Src\gpio.c</name>
                 </file>
                 <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\gpio.h</name>
+                </file>
+                <file>
                     <name>$PROJ_DIR$\..\Core\Src\main.c</name>
                 </file>
                 <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\main.h</name>
+                </file>
+                <file>
                     <name>$PROJ_DIR$\..\Core\Src\rtc.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\rtc.h</name>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\..\Core\Src\stm32wlxx_hal_msp.c</name>
