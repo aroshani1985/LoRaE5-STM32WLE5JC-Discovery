@@ -16,6 +16,7 @@
   *
   ******************************************************************************
   */
+ #include <stdbool.h>
 /* USER CODE END Header */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
@@ -36,7 +37,13 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
+typedef struct {
+  uint8_t msw_cfg:1;
+  uint8_t msw_tmp:1;
+  
+}system_flags;
 
+extern system_flags sf;
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
@@ -61,6 +68,12 @@ void Error_Handler(void);
 #define LED_B_GPIO_Port GPIOB
 #define LED_G_Pin GPIO_PIN_13
 #define LED_G_GPIO_Port GPIOB
+#define MSW_SW_Pin GPIO_PIN_1
+#define MSW_SW_GPIO_Port GPIOC
+#define MSW_SW_EXTI_IRQn EXTI1_IRQn
+#define TAMER_SW_Pin GPIO_PIN_3
+#define TAMER_SW_GPIO_Port GPIOA
+#define TAMER_SW_EXTI_IRQn EXTI3_IRQn
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
