@@ -23,8 +23,11 @@
 #include "sys_app.h"
 #include "subghz_phy_app.h"
 #include "radio.h"
-
+#include <string.h>
+#include <stdio.h>
 /* USER CODE BEGIN Includes */
+#include "usart.h"
+#include "lrapp.h"
 /* USER CODE END Includes */
 
 /* External variables ---------------------------------------------------------*/
@@ -115,30 +118,48 @@ void SubghzApp_Init(void)
 static void OnTxDone(void)
 {
   /* USER CODE BEGIN OnTxDone */
+  Radio.Sleep();
+  u1_print_str_rtc("TX Done Event.\n");
+  app_lora_rx_enable();
   /* USER CODE END OnTxDone */
 }
 
 static void OnRxDone(uint8_t *payload, uint16_t size, int16_t rssi, int8_t LoraSnr_FskCfo)
 {
   /* USER CODE BEGIN OnRxDone */
+  Radio.Sleep();
+  u1_print_str_rtc("RX Done Event.\n");
+  char buff[32];
+  sprintf(buff, "Data: %s\n", payload);
+  u1_print_str_rtc(buff);
+  app_lora_rx_enable();
   /* USER CODE END OnRxDone */
 }
 
 static void OnTxTimeout(void)
 {
   /* USER CODE BEGIN OnTxTimeout */
+  Radio.Sleep();
+  u1_print_str_rtc("TX TimeOut Event.\n");
+  app_lora_rx_enable();
   /* USER CODE END OnTxTimeout */
 }
 
 static void OnRxTimeout(void)
 {
   /* USER CODE BEGIN OnRxTimeout */
+  Radio.Sleep();
+  u1_print_str_rtc("RX TimeOut Event.\n");
+  app_lora_rx_enable();
   /* USER CODE END OnRxTimeout */
 }
 
 static void OnRxError(void)
 {
   /* USER CODE BEGIN OnRxError */
+  Radio.Sleep();
+  u1_print_str_rtc("RX Error Event.\n");
+  app_lora_rx_enable();
   /* USER CODE END OnRxError */
 }
 

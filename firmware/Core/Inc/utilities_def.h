@@ -76,6 +76,8 @@ typedef enum
   CFG_SEQ_Task_Default,
   /* USER CODE BEGIN CFG_SEQ_Task_Id_t */
   CFG_SEQ_Task_LED_Blink,
+  CFG_SEQ_Task_LoRa_TX,
+  CFG_SEQ_Task_LoRa_RX,
   /* USER CODE END CFG_SEQ_Task_Id_t */
   CFG_SEQ_Task_NBR
 } CFG_SEQ_Task_Id_t;

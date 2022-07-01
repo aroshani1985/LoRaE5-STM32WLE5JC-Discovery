@@ -1428,6 +1428,12 @@
         <file>
             <name>$PROJ_DIR$\..\App\ledapp.h</name>
         </file>
+        <file>
+            <name>$PROJ_DIR$\..\App\lrapp.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\App\lrapp.h</name>
+        </file>
     </group>
     <group>
         <name>Application</name>
@@ -1501,7 +1507,13 @@
                         <name>$PROJ_DIR$\..\SubGHz_Phy\App\app_subghz_phy.c</name>
                     </file>
                     <file>
+                        <name>$PROJ_DIR$\..\SubGHz_Phy\App\app_subghz_phy.h</name>
+                    </file>
+                    <file>
                         <name>$PROJ_DIR$\..\SubGHz_Phy\App\subghz_phy_app.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\SubGHz_Phy\App\subghz_phy_app.h</name>
                     </file>
                 </group>
                 <group>

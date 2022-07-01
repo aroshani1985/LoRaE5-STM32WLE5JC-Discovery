@@ -16,6 +16,7 @@
   ******************************************************************************
   */
 #include "ledapp.h"
+#include "lrapp.h"
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
@@ -95,6 +96,9 @@ int main(void)
   //led_g_ctrl(0);
   //led_b_ctrl(1);
   app_led_init();
+  app_lora_tx_init();
+  app_lora_rx_init();
+  app_lora_rx_enable();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -107,6 +111,11 @@ int main(void)
     //u1_print_str_rtc("LED Blink \n");
     /* USER CODE END WHILE */
     MX_SubGHz_Phy_Process();
+    if(sf.msw_tmp)
+    {
+      sf.msw_tmp = false;
+      app_lora_tx_enable();
+    }
 
     /* USER CODE BEGIN 3 */
   }
