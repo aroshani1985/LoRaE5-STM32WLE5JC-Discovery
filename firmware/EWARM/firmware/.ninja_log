@@ -1,0 +1,26 @@
+# ninja log v5
+1	73	6783905624039592	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Application/EWARM/startup_stm32wle5xx.o	95f6f0dc72186084
+11	667	6783905629741694	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Application/User/Core/gpio.o	909bb8c3bef68fda
+21	754	6783905630587882	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Application/User/Core/main.o	231ff99a085ff311
+79	852	6783905631434077	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Application/User/Core/stm32wlxx_hal_msp.o	3820ce93c692cffc
+32	899	6783905631746527	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Application/User/Core/stm32wlxx_it.o	682812055f420c52
+685	1293	6783905636068590	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/CMSIS/system_stm32wlxx.o	a5060d37fe18f061
+770	1387	6783905636914829	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Application/User/Core/rtc.o	1f0728a17d89150a
+916	1591	6783905638919676	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_cortex.o	650da771f4818b03
+866	1643	6783905639453464	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal.o	71d5306a219d8e70
+1311	1951	6783905642616972	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_dma_ex.o	6d2fd426affaa8e
+1402	2140	6783905644465589	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_flash.o	baccd5a30eaaade0
+1609	2293	6783905645936643	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_exti.o	5e5abcb9ff655fcc
+1657	2438	6783905647472851	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_flash_ex.o	3e8c3a5c84af67f2
+2157	3023	6783905653269910	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_gpio.o	50c3594ac25282d8
+1967	3053	6783905653269910	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_dma.o	be0ddaa0c7fc0c7e
+2454	3149	6783905654659044	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_pwr.o	7355f0a57c06314
+2314	3726	6783905660387672	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_rtc_ex.o	b5bf88c3b214371
+3164	3965	6783905662724754	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_pwr_ex.o	5e60e28214b837db
+3073	4351	6783905666554122	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_rcc_ex.o	d6cb945f17b9df1a
+3983	4514	6783905668266158	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_tim_ex.o	a36f6d05de44ca3e
+3040	4652	6783905669654698	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_rcc.o	50aeec425249b634
+4370	4846	6783905671590974	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_tim.o	71727b0995cc491d
+3748	4891	6783905671993831	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Obj/Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_rtc.o	7eece1dbf0cd839d
+4909	5073	6783905673892691	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Exe/firmware.out	f95800b115a7d4c4
+5115	5135	6783905674582816	C:/git-prj/LoRa-E5-STM32WLE5JC-06-02-2022/firmware/EWARM/firmware/Exe/firmware.hex	d5d4060e4dba4163
